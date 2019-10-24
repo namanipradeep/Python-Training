@@ -1,0 +1,8 @@
+perl
+unix
+python
+java
+Ruby
+dot net
+Hadoop
+SalesForce

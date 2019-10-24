@@ -1,0 +1,524 @@
+write a program to capture any filename from the keyboard and display its filename and extension seperate
+
+Output:
+
+Enter any filename:  abc.py
+
+filename : abc
+extension : py     --------------------------------------------------------------------------------------
+
+write  a program to capture some delimeted string from the keyboard and split the string with comma and display the length after splitting.
+
+Output:
+Enter any delimited string :  python,perl,unix,scala,spark
+
+List elements are : [ python , perl, unix,scala , spark ]
+Length of the list  : 5
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program for performing the below operaitons
+
+1. define empty tuple
+2. append  "unix" to the tuple
+3. append few more elements like 'spark', 'scala','hadoop',sccm' to the list
+4  append few more elements like 'c','cpp','java','salesforce','sap','unix' to the list
+5.  remove java
+6  remove salesforce -
+7. add  'oracle' at the index 0
+8. add ' mongodb' at the index 5
+9. reverse all the elements
+10. display the total.  no. of eleents of the list
+11. display the total count of 'unix' in the list
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+define tuple as below
+numbers = (10,20,10,20,30,40,60,70)
+
+write a program to remove all the duplicates of the tuple
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to capture 2 numbers from the keyboard and display its sum
+
+
+Enter first number : 10
+Enter second number: 20
+
+Total : 30
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to capture "python programming" from the keyboard and replace "python" with "scala"
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+define two lists
+alist = [10,20,30,40,50,10]
+blist = [40,50,60,70,80]
+
+display all the UNIQUE elements of both alist and blist
+display all the COMMON elements of both alist and blist
+
+----------------------------------------------------------------------------------------------------
+define a string as below
+
+lang = "perl,unix,hadoop,scala,spark,ruby,go"
+
+write a program to check whether 'python' is existing in the string or not.
+
+
+--------------------------------------------------------------------------------------------------------
+capture any string from the keyboard and perform the below operations
+
+1. check whether the string is upper or not
+2. convert the string to list
+3. display the string exactly in the center of 30 spaces width
+4. convert the string into lower case
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a progam to capture filename from the keyboard and display the type of the file
+if the filename is ending with .py  .... display "Its python file"
+if the filename is ending with .pl   .... display "Its perl file"
+If the filename is ending with .c  ....... display "Its C lang file"
+if the filename is ending with .json ...  display "Its json file"
+
+Enter any filename :  info.py
+Python file
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+write a program to validate the IP address
+
+Enter any IP address : 192.168.0.1
+Its valid IP
+Enter any IP address : 1001.1.2.3
+Invalid IP
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to capture any string from the keyboard and perform the below
+
+if the string is defined in uppercase......   convert the string to lower and display it
+
+if the string is defined in lowercase ...... convert the string to upper and display it.
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to capture username and password from the keyboard and validate the password
+
+condition1:  length of the password should be greater than  5
+condition2:   length of the password should be less than 12
+condition3:  atleast  one symbol ( @ or * or  $ ) should exist in the password
+condition4:  whole password SHOULD not be in upper case
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+define some tuple as below
+
+alist = ("unix","hadoop","oracle","scala")
+
+and write a program to append "spark" to the tuple
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to display all the numbers from 50 to 1  
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to display all the odd numbers from 20 to 10
+
+
+--------------------------------------------------------------------------------------------------------
+
+define some list as below
+
+alist = ["google","oracle","microsoft"]
+
+write a program to
+add "http://www"  at the beginning and  
+add ".com" at tht end of the string
+
+Output:
+http://www.google.com
+http://www/.oracle.com
+http://www.microsoft.com
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+define some list as below
+
+domains = ["google","www.unix","oracle.com"]
+
+write a program
+
+to add "www"  at the beginning  if the string is not starting with "www"
+  and
+".com" at the end of each string if the string is not ending with ".com"
+
+Output:
+www.google.com
+www.unix.com
+www.oracle.com
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to display the below IP addresses
+
+192.168.0.1
+192.168.0.2
+192.168.0.3
+..
+..
+192.168.0.10
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+write a program to display the below IP addresses
+
+192.168.0.1
+192.168.0.2
+192.168.0.3
+..
+..
+192.168.0.10
+192.168.1.1
+192.168.1.2
+192.168.1.3
+..
+..
+192.168.1.10
+
+
+
+--------------------------------------------------------------------------------------------------------
+define dictionary as below
+
+infodoc =  { 2001: {"ap":70}  , 2002:{"tn":75} , 2003:{"up":50} }
+
+write a program to display the below output
+
+state literacy rate
+------  ---------------
+ap       70
+tn        75
+up       50
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+define some dictionary as below
+
+adict = {"emp1":["raj",28] ,"emp2":["ram",34] ,"emp3":["rita",24]}
+
+write a program to check whether the key "emp2" is existing in the list or not
+
+---------------------------------------------------------------------------------------------
+
+define some list as below
+
+data = ["perl","unix","perl","scala","perl"]
+
+write a program to count the no. of occurences of each item
+
+perl 3
+unix 1
+scala 1
+
+---------------------------------------------------------------------------------------------
+define a list below
+
+colors = [
+{
+"colors": "red",
+"values": "#f00"
+},
+{
+"colors": "green",
+"values": "#0f0"
+},
+{
+"colors": "blue",
+"values": "#00f"
+},
+{
+"colors": "cyan",
+"values": "#0ff"
+},
+{
+"colors": "magenta",
+"values": "#f0f"
+},
+{
+"colors": "yellow",
+"values": "#ff0"
+},
+{
+"colors": "black",
+"values": "#000"
+}
+]
+write a program to display all the colors and its values.
+
+red(#f00)
+green(#0f0)
+blue(#00f)
+cyan(#0ff)
+magenta(#f0f)
+yellow(#ff0)
+black(#000)
+
+
+--------------------------------------------------------------------------------------------
+define a dictionray as below
+
+{
+"id": "0001",
+"type": "donut",
+"name": "Cake",
+"image":
+{
+"url": "images/0001.jpg",
+"width": 200,
+"height": 200
+},
+"thumbnail":
+{
+"url": "images/thumbnails/0001.jpg",
+"width": 32,
+"height": 32
+}
+}
+
+write a program to display the below output:
+
+id           : 0001
+type         :donut
+name       : Cake
+image.width   : 200
+image.height : 200
+image.url      : images/0001.jpg
+
+
+------------------------------------------------------------------------------------------
+define dictionary as below
+
+
+ydict = {
+  "kind": "youtube#searchListResponse",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/PaiEDiVxOyCWelLPuuwa9LKz3Gk\"",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "KE",
+  "pageInfo": {
+    "totalResults": 4249,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/QpOIr3QKlV5EUlzfFcVvDiJT0hw\"",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCJowOS1R0FnhipXVqEnYU1A"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/AWutzVOt_5p1iLVifyBdfoSTf9E\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eqa2nAAhHN0"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/2dIR9BTfr7QphpBuY3hPU-h5u-4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IirngItQuVs"
+      }
+    }
+  ]
+}
+
+
+write a program to display all etag  information from the dictionary
+
+
+--------------------------------------------------------------------------------------------------------
+
+create a dictionary as below
+
+{
+"id": "0001",
+"type": "donut",
+"name": "Cake",
+"ppu": 0.55,
+"batters":
+{
+"batter":
+[
+{ "id": "1001", "type": "Regular" },
+{ "id": "1002", "type": "Chocolate" },
+{ "id": "1003", "type": "Blueberry" },
+{ "id": "1004", "type": "Devil's Food" }
+]
+},
+"topping":
+[
+{ "id": "5001", "type": "None" },
+{ "id": "5002", "type": "Glazed" },
+{ "id": "5005", "type": "Sugar" },
+{ "id": "5007", "type": "Powdered Sugar" },
+{ "id": "5006", "type": "Chocolate with Sprinkles" },
+{ "id": "5003", "type": "Chocolate" },
+{ "id": "5004", "type": "Maple" }
+]
+}
+
+write a program to display the below output:
+
+Regular (1001)
+Chocolate (1002)
+Blueberry (1003)
+Devil's Food (1004)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------- 
+write a program to display all the lines from the file
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+write a program to display STREET and CITY from the file
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+write a program to display all the  UNIQUE cities from the file
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+write  a program to display each city and the no. of times it has been repeated
+
+SACRAMENTO  -   300 times
+RIO LINDA         -   10 times
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+wrtie a program to read all the lines where type is Residential and write the output to the backup,.csv files
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+write a program to read the file and display the output in the dictionary format where the key is city name
+
+Output;
+{
+'SACRAMENTO': [ ['3526 HIGH ST', 95838 ],['51 OMAHA CT', 95823 ] ]
+'RIO LINDA' :[ ['3343526 HIGH', 95838 ],['51 OMAHA CT', 95823 ] ]
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+write a program to display all the files from the current directory line by line
+-----------------------------------------------
+write a program to display all the files from the C:\\
+-----------------------------------------------
+write a program to display all the files and its size from teh current directory
+-----------------------------------------------
+
+write a program to display all the files and directory seperately along with the count from the current directory
+
+files
+----
+file1
+file2
+count : 2
+
+directories
+------------
+dir1
+dount : 1
+-----------------------------------------------
+write a program to display whether the input is file or directory from the local directory
+
+abc.py is the file
+doc.py is the file
+dir1 is the directory
+-----------------------------------------------
+
+create two folders as below in the curent directory 
+source     : copy few files to the source folder
+destination
+
+write a program to copy all the files from source to destination
+
+-----------------------------------------------
+
+write a program to create 100 directories as below
+
+dir1
+dir2
+dir3
+dir4
+..
+dir100
+
+-----------------------------------------------
+
+write a program to display the below information
+
+current username
+current working directory
+todays timestamp
+this month calendar
+current process id
+files count in the current directory 
+name of your operating system
+current python version
+list of all builtlin libraries
+hostname of your system
+IP address of your system
+
+-----------------------------------------------
+
+write a program to capture from the keyboard  and generate the random password containing 2 upper and lower case charactesr and 2 symbols and 2 digits
+
+-----------------------------------------------
+
+write a program to delete al the files ending with .py from the current folder.
+
+-----------------------------------------------
+
+
+
+write a  python module containing  3 definitions  
+
+
+deletefile(file)
+
+listfiles(path)
+
+copfyiles(source,program)
+
+
+Now ...  import this module to your program by passing all the required values
